@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color"
+                 values="#58a6ff;#bc8cff;#f78166;#3fb950;#58a6ff"
+                 dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#bc8cff">
+        <animate attributeName="stop-color"
+                 values="#bc8cff;#f78166;#3fb950;#58a6ff;#bc8cff"
+                 dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="10"/>
+
+  <!-- Animated gradient line -->
+  <rect x="0" y="0" width="800" height="3" fill="url(#line)" rx="10"/>
+
+  <!-- Greeting text -->
+  <text x="400" y="70" text-anchor="middle" fill="#58a6ff"
+        font-family="'Segoe UI', monospace" font-size="32" font-weight="bold" opacity="0">
+    Hey, I'm Gibettt 👋
+    <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="110" text-anchor="middle" fill="#8b949e"
+        font-family="'Segoe UI', monospace" font-size="16" opacity="0">
+    Full-Stack Developer · UI/UX Enthusiast · Cat Person 🐱
+    <animate attributeName="opacity" values="0;1" begin="0.4s" dur="0.8s" fill="freeze"/>
+  </text>
+
+  <!-- Tech tags -->
+  <g opacity="0">
+    <rect x="180" y="135" width="70" height="24" rx="12" fill="#1f6feb33" stroke="#58a6ff" stroke-width="1"/>
+    <text x="215" y="152" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="monospace">Laravel</text>
+
+    <rect x="260" y="135" width="60" height="24" rx="12" fill="#1f6feb33" stroke="#58a6ff" stroke-width="1"/>
+    <text x="290" y="152" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="monospace">React</text>
+
+    <rect x="330" y="135" width="65" height="24" rx="12" fill="#1f6feb33" stroke="#58a6ff" stroke-width="1"/>
+    <text x="362" y="152" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="monospace">Tailwind</text>
+
+    <rect x="405" y="135" width="45" height="24" rx="12" fill="#1f6feb33" stroke="#58a6ff" stroke-width="1"/>
+    <text x="427" y="152" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="monospace">IoT</text>
+
+    <rect x="460" y="135" width="65" height="24" rx="12" fill="#1f6feb33" stroke="#58a6ff" stroke-width="1"/>
+    <text x="492" y="152" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="monospace">Arduino</text>
+
+    <rect x="535" y="135" width="45" height="24" rx="12" fill="#1f6feb33" stroke="#58a6ff" stroke-width="1"/>
+    <text x="557" y="152" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="monospace">Node</text>
+
+    <animate attributeName="opacity" values="0;1" begin="0.8s" dur="0.8s" fill="freeze"/>
+  </g>
+
+  <!-- Bottom animated dots -->
+  <circle cx="370" cy="185" r="3" fill="#58a6ff">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="185" r="3" fill="#bc8cff">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="185" r="3" fill="#f78166">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
