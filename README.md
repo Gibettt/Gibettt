@@ -1,9 +1,8 @@
 <!-- Fancy GitHub Profile README -->
 
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+  <img src="./assets/banner.svg" width="800" />
 </div>
-
 
 
 ## 👨‍💻 About Me
@@ -12,7 +11,11 @@
 
 - 🌱 Currently diving into **Cloud & DevOps**  
 - 🎯 Goal: Build impactful products with creativity + tech  
-- 💬 Ask me about **Laravel, React, Tailwind, and IoT**  
+- 💬 Ask me about **Laravel, React, Tailwind, and IoT**
+
+<p align="center">
+  <img src="./assets/terminal.svg" width="600" />
+</p>
 
 ---
 
@@ -25,12 +28,16 @@
   <img src="https://skillicons.dev/icons?i=laravel,react,tailwind,docker,git,figma,vscode" />
 </p>
 
+<p align="center">
+  <img src="./assets/skills-animated.svg" />
+</p>
+
 ---
 
 ## 📊 GitHub Analytics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=haerul&show_icons=true&theme=radical&hide_border=true" height="160"/>
-  <img src="https://streak-stats.demolab.com?user=haerul&theme=radical&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Gibettt&show_icons=true&theme=radical&hide_border=true" height="160"/>
+  <img src="https://streak-stats.demolab.com?user=Gibettt&theme=radical&hide_border=true" height="160"/>
 </p>
 
 ---
@@ -38,9 +45,9 @@
 ## 🚀 Featured Projects
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**🌐 Portfolio Website**](https://github.com/haerul/portfolio) | Modern responsive portfolio site | HTML, CSS, JS |
-| [**🏠 IoT Smart Home**](https://github.com/haerul/iot-smart-home) | IoT-based smart home system with sensors | Arduino, NodeMCU |
-| [**🎨 UI/UX Components Library**](https://github.com/haerul/uiux-library) | Reusable UI components for web apps | React, Tailwind |
+| [**🌐 Portfolio Website**](https://github.com/Gibettt/portfolio) | Modern responsive portfolio site | HTML, CSS, JS |
+| [**🏠 IoT Smart Home**](https://github.com/Gibettt/iot-smart-home) | IoT-based smart home system with sensors | Arduino, NodeMCU |
+| [**🎨 UI/UX Components Library**](https://github.com/Gibettt/uiux-library) | Reusable UI components for web apps | React, Tailwind |
 
 ---
 
